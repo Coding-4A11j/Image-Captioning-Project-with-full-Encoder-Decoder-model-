@@ -12,6 +12,9 @@ The project is structured as a series of Jupyter notebooks and three helpers .py
 - 2_Training.ipynb
 - 3_Inference.ipynb
 
+![we](https://github.com/user-attachments/assets/db9c8c37-d189-4112-af9c-3bf50e655ff7)
+
+
 The project uses Pytorch and the MS COCO dataset for training. COCO is a large image dataset designed for object detection, segmentation, person keypoints detection, stuff segmentation, and caption generation. The dataset contains images with 5 pre-made captions each. The large majority of these captions are between 8 to 15 words long.
 COCO datasets can be found [here](https://cocodataset.org/#download).
 
@@ -44,6 +47,9 @@ Note: Applying BatchNormalization to the LSTM is not considered. In any non-recu
 # Next ?
 
 Refine the architecture introducing two LSTM layers and reducing the dropout rate (target a keep ratio of 0.75). This is based on the following detailed analysis paper [Learning CNN-LSTM Architectures for Image Caption Generation](https://cs224d.stanford.edu/reports/msoh.pdf).
+
+![to](https://github.com/user-attachments/assets/9f24bb52-4825-4931-aa21-917bb2225338)
+
 
 # How to run
 - download the repo as the working folder
